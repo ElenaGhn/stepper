@@ -1,0 +1,35 @@
+.stepperContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-content: center;
+  margin: 200px;
+
+}
+
+
+button {
+  padding: 12px 20px;
+  margin: 14px;
+  border-radius: 8px;
+  border: 1px solid #9090af;
+  background-color: #97e5fc;
+  color: darkblue;
+  font-size: x-large;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #047ea4;
+    color: #e5f5ff;
+  }
+  &:disabled {
+    background-color: darkgrey;
+    color: #d2cdcd;
+    border: transparent;
+  }
+  &:disabled:hover{
+    background-color: #817d7d;
+  }
+}
+

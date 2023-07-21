@@ -1,0 +1,27 @@
+.steps {
+  display: flex;
+  margin-top: 15px;
+}
+
+.itemBubbles {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #97e5fc;
+  border: transparent;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    background: linear-gradient(to right, rgb(95, 167, 243), rgba(255, 255, 255, 0));
+    width: 70px;
+    height: 70px;
+  }
+    &.active {
+      background: linear-gradient(to right, rgb(3, 43, 141), rgba(240, 244, 248, 0.10));
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+

@@ -1,0 +1,8 @@
+<div class="stepperContainer">
+    <div>
+      <button [disabled]="count <= 1" (click)="prev()">Previous</button>
+      <button [disabled]="count >= 5" (click)="next()">Next</button>
+    </div>
+
+    <app-stepper [indexTransferor]="count"  [items]="bubbles"></app-stepper>
+</div>
